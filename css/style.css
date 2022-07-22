@@ -2,7 +2,9 @@
 body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
-  list-style: none;
+  background-color: #ffffff;
+  font-size: 14px;
+  color: #212121;
 }
 
 /* List */
@@ -13,24 +15,22 @@ body {
 /* Header  */
 .logo {
   font-family: 'Raleway';
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
   color: #2196f3;
 }
-.logo span {
+.logo > span {
   color: #000000;
 }
 /* site-nav */
 
 .link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
   text-decoration: none;
+  color: #212121;
 }
 
 .link:hover,
@@ -38,11 +38,20 @@ body {
   color: #2196f3;
 }
 
+/* Current  */
+.button.current {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.link.current {
+  color: #2196f3;
+}
+
 /* site-info */
 
 .info {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -72,8 +81,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 200px;
-  height: 50px;
+  padding: 10px 32px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -81,7 +89,6 @@ body {
   border: none;
 }
 .order {
-  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -97,14 +104,10 @@ body {
   visibility: hidden;
 }
 .title {
-  font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #212121;
 }
 .text-link {
-  font-size: 14px;
   line-height: 24px;
   color: #757575;
   text-decoration: none;
@@ -120,11 +123,9 @@ body {
 .section {
 }
 .block-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  color: #212121;
 }
 .image-block {
 }
@@ -136,11 +137,9 @@ body {
 }
 
 .block-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  color: #212121;
 }
 
 .block {
@@ -155,7 +154,6 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  color: #212121;
 }
 
 .section-text {
@@ -171,7 +169,6 @@ body {
 }
 
 .footer-text {
-  font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
 }
@@ -179,35 +176,31 @@ body {
 /* Section Button  */
 
 .button {
-  width: 128px;
-  height: 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  padding: 6px 22px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   background: #f5f4fa;
   border: none;
   cursor: pointer;
+  font-family: inherit;
 }
 
 .button:hover,
 .button:focus {
   background: #2196f3;
-}
-
-.button-text {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  color: #212121;
-}
-
-.button-text:hover,
-.button-text:focus {
   color: #ffffff;
 }
 
 /* Page block  */
+
+.address {
+  font-style: normal;
+}
 
 .page-block {
   background: #ffffff;
@@ -215,7 +208,6 @@ body {
   text-decoration: none;
 }
 .page-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;

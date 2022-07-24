@@ -3,8 +3,8 @@ body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
   background-color: #ffffff;
-  font-size: 14px;
   color: #212121;
+  font-size: 14px;
 }
 
 /* List */
@@ -20,9 +20,7 @@ body {
   text-decoration: none;
   color: #2196f3;
 }
-.logo > span {
-  color: #000000;
-}
+
 /* site-nav */
 
 .link {
@@ -170,6 +168,10 @@ body {
 
 .footer-text {
   line-height: 1.71;
+  color: #ffffff;
+}
+
+.footer-logo {
   color: #ffffff;
 }
 
